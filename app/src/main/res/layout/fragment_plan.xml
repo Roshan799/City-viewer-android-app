@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".PlanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:hint="Enter Destination city" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city2"
+        android:hint="Enter departuring city"/>
+
+    <Button
+        android:id="@+id/book_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/book_train"
+        android:text="bus" />
+
+    <Button
+        android:id="@+id/book_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/book_air"
+        android:layout_centerHorizontal="true"
+        android:text="train" />
+
+    <Button
+        android:id="@+id/book_air"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:text="airplane" />
+
+
+    <Button
+        android:id="@+id/book_hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/plan"
+        android:layout_centerHorizontal="true"
+        android:text="Reserve hotel" />
+
+    <Button
+        android:id="@+id/plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/sh_plan"
+        android:text="Plan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh_plan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="105dp"
+        android:text="Show plans" />
+
+
+
+</RelativeLayout>
